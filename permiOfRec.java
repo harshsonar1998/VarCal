@@ -6,12 +6,16 @@ public class permiOfRec {
 		//RectaPeri
 		Scanner peri = new Scanner(System.in);
 		System.out.println("Welcome to the RectaPeri calculator!");
-		System.out.print("Let's calculate the perimeter of a rectangle! What's the length: ");
+		System.out.print("Let's calculate the perimeter of a rectangle! What's the 1 side: ");
 		double len = peri.nextDouble();
-		System.out.print("Great! Now, what's the width: ");
-		double wid = peri.nextDouble();
+		System.out.print("Let's calculate the perimeter of a rectangle! What's the 2 side: ");
+		double Len = peri.nextDouble();
+		System.out.print("Let's calculate the perimeter of a rectangle! What's the 3 side: ");
+		double LeN = peri.nextDouble();
+		System.out.print("Let's calculate the perimeter of a rectangle! What's the 4 side: ");
+		double LEN = peri.nextDouble();
 		
-		double pr= 2*(len+wid);
+		double pr= len+Len+LeN+LEN;
 		System.out.println("Calculating the perimeter of rectangle....");
 		System.out.println("The perimeter of given rectangle is "+ pr);
 		
