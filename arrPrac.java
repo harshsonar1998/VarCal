@@ -9,6 +9,7 @@ import java.lang.reflect.Array;
 public class arrPrac {
 
 	public static void main(String[] args) {
+		// The Scanner file for this can be found by commInc name.
 		// TODO Auto-generated method stub
 		//int [] array = commInp.numarray();
 		//long su = add(array);
